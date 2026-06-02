@@ -1,0 +1,20 @@
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# React Build
+dist/
+build/
+
+# Environment Files
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
