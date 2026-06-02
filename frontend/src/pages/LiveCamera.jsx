@@ -61,7 +61,7 @@ function LiveCamera() {
         );
 
         const response = await axios.post(
-          "http://127.0.0.1:8000/convert-image",
+          "https://asciiverse-api.onrender.com/convert-image",
           formData
         );
 

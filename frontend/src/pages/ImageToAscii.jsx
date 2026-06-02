@@ -131,7 +131,7 @@ export default function ImageToAscii() {
     formData.append("color_mode", colorMode);
 
     try {
-      const res = await axios.post("http://127.0.0.1:8000/convert-image", formData);
+      const res = await axios.post("https://asciiverse-api.onrender.com/convert-image", formData);
 
       if (colorMode === "color") {
         setColorRows(res.data.ascii_color);
