@@ -1,4 +1,5 @@
 import matrixBg from "../assets/matrix-home.jpg";
+import { Link } from "react-router-dom";
 
 function Home() {
   const buttonStyle = {
@@ -67,17 +68,17 @@ function Home() {
           Transform Reality Into ASCII Art
         </p>
 
-        <a href="/image">
-          <button style={buttonStyle}>
-             Image to ASCII
-          </button>
-        </a>
+        <Link to="/image">
+        <button style={buttonStyle}>
+         Image to ASCII
+        </button>
+        </Link>
 
-               <a href="/live-ascii">
+          <Link to="/live-ascii">
           <button style={buttonStyle}>
-             Cyberpunk ASCII Camera
+           Cyberpunk ASCII Camera
           </button>
-        </a>
+          </Link>
       </div>
     </div>
   );
